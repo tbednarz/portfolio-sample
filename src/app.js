@@ -21,23 +21,11 @@ app.use(express.static(publicDir))
 
 app.get("", (req,res) => {
     res.render("index", {
-        title: "Home",
-        name: "Tres Bednarz"
+        title: "Tres Bednarz"
     })
 })
 
-app.get("/about",(req,res) => {
-    res.render("about", {
-        title: "About",
-        name: "Tres Bednarz"
-    })
-})
-app.get("/projects", (req,res) =>{
-    res.render("Projects", {
-        title: "Projects",
-        name: "Tres Bednarz"
-    })
-})
+
 
 app.listen(port,() => {
     console.log("Server is listening on port "+ port)

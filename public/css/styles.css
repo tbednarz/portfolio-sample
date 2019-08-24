@@ -1,4 +1,63 @@
-.me{
-    height: 250px;
-    width: 300px;
+/*ECB300*/
+
+/*F7BF0D*/
+
+html {
+    background: rgba(0, 0, 0, 0.671);
+}
+body{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+header {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.959);
+    height: 8vh;
+    width: 100%;
+}
+header h1{
+   text-align: center;
+   font-size:4em;
+   margin: 0;
+   padding: 0;
+   box-shadow: 3px 10px 10px black;
+  
+}
+.section{
+     padding-top: 1em;
+}
+.section p{
+    font-size: .50em;
+}
+
+.container {
+    display: block;
+    grid-template-columns: auto auto;
+    background-color: black;
+    text-align: center;
+    height: 90vh;
+}
+
+.column-one {
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: black;
+    grid-column: 1;
+    font-size: 5em;
+}
+
+.column-one div {
+   
+    height: 50vh;
+    color: white;
+}
+
+.section:hover {
+    height: 81.3vh;
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: .5s;
 }
