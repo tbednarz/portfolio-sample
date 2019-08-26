@@ -3,70 +3,108 @@
 /*F7BF0D*/
 
 html {
-   background: rgba(0, 0, 0, .671)
+    background: rgba(0, 0, 0, .671)
 }
+
 /* body{
 
 } */
 
+#work{
+    margin-top: 1em;
+}
 header {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.959);
+    background-color: rgb(51, 104, 219);
     height: 8vh;
-    width: 30%;
-  
+    width: 25%;
+    border-radius: 2%;
+}
+.fa {
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20%;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.fa:hover {
+    opacity: 0.7;
+    width: 55px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.fa-stack-overflow{
+    background: whitesmoke;
+    color: #f48024;
+}
+/* reddit */
+.fa-reddit{
+    background:#FF5700;
+    color: whitesmoke;
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: whitesmoke;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: whitesmoke;
+}
+.fa-instagram{
+    background: #C13584;
+    color: whitesmoke;
+}
+.fa-github{
+    background: #6cc644;
+    color: purple;
     
 }
- header:hover{
-     cursor: pointer;
-     transition-duration: .5s;
-     transition-timing-function: ease-in;
-     width: 20%;
-}
-h1{
+h1 {
     margin: 0px;
     padding: 0px;
 }
-header h1{
-   text-align: center;
-   font-size:4em;
-   margin: 0;
-   padding: 0;
-   box-shadow: 3px 10px 10px black;
+header h1 {
+    text-align: center;
+    font-size: 4em;
+    font-style: italic; 
+    text-decoration: underline;
+    box-shadow: 3px 10px 10px black;
+
+}
+img{
+    margin-left: .5em;
+    float: left;
   
 }
- #welcome{
-     padding-top: 1em;
+#welcome {
+    padding-top: 1em;
 }
-
-.section p{
-    font-size: .50em;
+.section p {
+    font-size: .5em;
 }
-
 .container {
     display: block;
     grid-template-columns: auto auto;
-  
     text-align: center;
     height: 90vh;
 }
-
 .column-one {
     background-color: black;
     grid-column: 1;
     font-size: 5em;
 }
-
 .column-one div {
     height: 50vh;
     width: 100%;
-    color: white;
+    color: whitesmoke;
 }
-
-
 .section:hover {
-    height: 100vh;
-    background-color: white;
+    height: 50vh;
+    background-color: whitesmoke;
     color: black;
     transition-duration: 1s;
     transition-timing-function: ease-out;
